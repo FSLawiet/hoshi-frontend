@@ -41,11 +41,9 @@ function Product() {
         relacionados.indexOf(produtos[x]) === -1
       ) {
         produtos[x].categorias.forEach((cat) => {
-          if (cat.codigo === categoria.codigo) {
-            relacionados.push(produtos[x]);
-            i++;
-          }
+          if (cat.codigo === categoria.codigo) relacionados.push(produtos[x]);
         });
+        i++;
       }
     }
     return relacionados;

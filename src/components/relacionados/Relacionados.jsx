@@ -1,7 +1,9 @@
-import React from "react";
 import Card from "../card/Card";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function Relacionados(produtos) {
+  const pathPage = useNavigate();
   const [title, setTitle] = useState("Veja mais peças como essa!");
   useEffect(() => {
     switch (produtos.categoria) {

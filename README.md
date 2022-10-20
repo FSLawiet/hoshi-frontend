@@ -1,12 +1,17 @@
-# Produtos relacionados - Projeto Individual
+# Front-End do Hoshi App
+
+- [Link para Frontend](https://hoshi-react.netlify.app/)
+- [Link para API](https://hoshi-api.herokuapp.com/)
+
+## Produtos relacionados - Projeto Individual
 
 Prazo de entrega: 01/11/2022
 
-## Objetivo
+### Objetivo
 
 Quando o usuário entrar na página de um produto deve ter um componente para exibir alguns produtos relacionados a categoria daquele produto.
 
-## Regras
+### Regras
 
 - Clonar o projeto do Hackadev do seu grupo e fazer a partir dele.
 - A feature deverá ser implementada pelo aluno de forma individual.
@@ -14,20 +19,20 @@ Quando o usuário entrar na página de um produto deve ter um componente para ex
 - Deve-se fazer deploy do projeto, servindo-o no Netlify ou serviço similar.
 - Ao finalizar o aluno deverá gravar um vídeo explicando de forma técnica como foi feito a implementação e disponibilizar o link do vídeo no envio do projeto.
 
-## Requisitos obrigatórios
+### Requisitos obrigatórios
 
 - Criar um componente para a seção e importar na página do produto.
 - Apresentar no mínimo 5 produtos relacionados.
 
-## Requisitos opcionais
+### Requisitos opcionais
 
 - Criar slide para apresentar os produtos relacionados.
 
-## Deploy
+### Deploy
 
 A recomendação é para que o deploy seja feito no [netlify](https://www.netlify.com) (gratuito) ou serviço similar.
 
-## Layouts
+### Layouts
 
 O layout abaixo serve de referência visual.
 ![Exemplo de componente de produtos relacionados](example.png "Produtos Relacionados")

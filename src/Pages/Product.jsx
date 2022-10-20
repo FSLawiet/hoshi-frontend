@@ -1,4 +1,5 @@
 import Produto from "../components/produto/Produto";
+import { Relacionados } from "../components/relacionados/Relacionados";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -53,7 +54,7 @@ function Product() {
           item.id === Number(id) && <Produto item={item} key={idx} />
       )}
       {relacionados.map((produtos, idx) => (
-        <div key={idx}>{produtos}</div>
+        <Relacionados produtos={produtos} key={idx} />
       ))}
     </>
   );

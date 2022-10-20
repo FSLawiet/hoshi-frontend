@@ -1,0 +1,13 @@
+.rel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.rel-container {
+  padding: 0 12px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-row: 1fr;
+  align-items: center;
+  justify-content: space-between;
+}

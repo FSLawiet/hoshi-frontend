@@ -7,7 +7,7 @@ import axios from "axios";
 
 function Product() {
   const { id } = useParams();
-  const [produto, setProduto] = useState([]);
+  const [produto, setProduto] = useState([{ produtos: [], categoria: "" }]);
   useEffect(() => {
     axios({
       url: "https://hoshi-api.herokuapp.com/produtos?id=" + id,
@@ -22,6 +22,7 @@ function Product() {
       url: "https://hoshi-api.herokuapp.com/produtos",
       method: "get",
     }).then((resp) => {
+      setRelacionados([]);
       for (categoria of produto.categorias) {
         setRelacionados(
           relacionados.push({

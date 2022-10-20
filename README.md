@@ -18,9 +18,9 @@ Quando o usuário entrar na página de um produto deve ter um componente para ex
 
 - [x] Clonar o projeto do Hackadev do seu grupo e fazer a partir dele.
 - [x] A feature deverá ser implementada pelo aluno de forma individual.
-- [] Deve ser mobile first, possuindo uma experiência satisfatória tanto em mobile quanto em desktop.
+- [ ] Deve ser mobile first, possuindo uma experiência satisfatória tanto em mobile quanto em desktop.
 - [x] Deve-se fazer deploy do projeto, servindo-o no Netlify ou serviço similar.
-- [] Ao finalizar o aluno deverá gravar um vídeo explicando de forma técnica como foi feito a implementação e disponibilizar o link do vídeo no envio do projeto.
+- [ ] Ao finalizar o aluno deverá gravar um vídeo explicando de forma técnica como foi feito a implementação e disponibilizar o link do vídeo no envio do projeto.
 
 ### Requisitos obrigatórios
 
@@ -29,7 +29,7 @@ Quando o usuário entrar na página de um produto deve ter um componente para ex
 
 ### Requisitos opcionais
 
-- [] Criar slide para apresentar os produtos relacionados.
+- [ ] Criar slide para apresentar os produtos relacionados.
 
 ### Deploy
 

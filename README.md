@@ -1,6 +1,9 @@
 # Front-End do Hoshi App
 
-- [Link para Frontend](https://hoshi-react.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80eb95d2-b676-4dbb-8b3a-71657559629e/deploy-status)](https://app.netlify.com/sites/hoshi-frontend/deploys)
+![Heroku Status](https://pyheroku-badge.herokuapp.com/?app=hoshi-api&style=plastic)
+
+- [Link para Frontend](https://hoshi-frontend.netlify.app)
 - [Link para API](https://hoshi-api.herokuapp.com/)
 
 ## Produtos relacionados - Projeto Individual

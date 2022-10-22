@@ -1,6 +1,11 @@
 import Card from "../card/Card";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, EffectFade } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
 import "./Relacionados.css";
 
 const Relacionados = ({ rel }) => {
@@ -21,13 +26,28 @@ const Relacionados = ({ rel }) => {
     <section className="rel">
       <h3>{title}</h3>
       <div className="rel-container">
-        {rel.produtos.map((produto, i) => (
-          <Card
-            key={i}
-            item={produto}
-            onClick={() => pathPage(`/product/${produto.id}`)}
-          />
-        ))}
+        <Swiper
+          modules={[Navigation, EffectFade]}
+          breakpoints={{
+            568: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            900: { slidesPerView: 4 },
+            1092: { slidesPerView: 5 },
+          }}
+          grabCursor={true}
+          loop={true}
+          navigation
+        >
+          {rel.produtos.map((produto, i) => (
+            <SwiperSlide>
+              <Card
+                key={i}
+                item={produto}
+                onClick={() => pathPage(`/product/${produto.id}`)}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

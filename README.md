@@ -29,7 +29,7 @@ Quando o usuário entrar na página de um produto deve ter um componente para ex
 
 ### Requisitos opcionais
 
-- [ ] Criar slide para apresentar os produtos relacionados.
+- [x] Criar slide para apresentar os produtos relacionados.
 
 ### Deploy
 

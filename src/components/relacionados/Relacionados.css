@@ -10,5 +10,15 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 8px;
+}
+.swiper-button-prev {
+  left: -2px;
+  right: auto;
+  color: #533d8b;
+}
+.swiper-button-next {
+  right: -2px;
+  left: auto;
+  color: #533d8b;
 }

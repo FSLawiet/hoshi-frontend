@@ -2,7 +2,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { CardEndereco, CardEnderecoProps } from "./CardEndereco";
 
 export default {
-  title: "Components/CardEndereco",
+  title: "Componentes/CardEndereco",
   component: CardEndereco,
   args: {
     endereco: {

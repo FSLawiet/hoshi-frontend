@@ -14,7 +14,6 @@ export interface Usuarios {
   id: number;
   nome: string;
   username: string;
-  senha: string;
   email: string;
   telefone: string;
   enderecos: Enderecos[];

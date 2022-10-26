@@ -6,6 +6,11 @@ export interface Cupons {
   desconto: number;
   validade: Date;
 }
+
+interface ListaProduto {
+  produto: number;
+  tamanho: string;
+}
 export interface Pedidos {
   id: number;
   usuario: number;
@@ -14,7 +19,7 @@ export interface Pedidos {
   id_endereco: number;
   desconto: number;
   obs: string;
-  produtos: Produtos[];
+  produtos: ListaProduto[];
 }
 
 export interface FormaEnvio {

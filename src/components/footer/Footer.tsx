@@ -15,7 +15,9 @@ export const Footer = ({}: FooterProps) => {
         <div className="Footer__Links">Ajuda</div>
         <div className="Footer__Links">Conta</div>
         <div className="Footer__Links">
-          <a href="https://hoshi-vite-docs.netlify.app/">Docs</a>
+          <a href="https://hoshi-vite-docs.netlify.app/" target="_blank">
+            Docs
+          </a>
         </div>
       </div>
 

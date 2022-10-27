@@ -201,7 +201,7 @@ Quando o usuário entrar na página de um produto deve ter um componente para ex
 - [x] A feature deverá ser implementada pelo aluno de forma individual.
 - [x] Deve ser mobile first, possuindo uma experiência satisfatória tanto em mobile quanto em desktop.
 - [x] Deve-se fazer deploy do projeto, servindo-o no Netlify ou serviço similar.
-- [ ] Ao finalizar o aluno deverá gravar um vídeo explicando de forma técnica como foi feito a implementação e disponibilizar o link do vídeo no envio do projeto.
+- [x] Ao finalizar o aluno deverá gravar um vídeo explicando de forma técnica como foi feito a implementação e disponibilizar o link do vídeo no envio do projeto.
 
 #### Requisitos obrigatórios
 

@@ -25,7 +25,6 @@ export const Produto = ({ item }: ProdutoProps) => {
     item: Produtos
   ) {
     e.preventDefault();
-
     switch (size) {
       case "G":
         addItemCart("G", item);
@@ -74,11 +73,23 @@ export const Produto = ({ item }: ProdutoProps) => {
               <label className="Size__Button" htmlFor="G">
                 G
               </label>
-              <input type="radio" name="size" id="M" value={"M"} />
+              <input
+                type="radio"
+                name="size"
+                id="M"
+                value={"M"}
+                onChange={onChange}
+              />
               <label className="Size__Button" htmlFor="M">
                 M
               </label>
-              <input type="radio" name="size" id="P" value={"P"} />
+              <input
+                type="radio"
+                name="size"
+                id="P"
+                value={"P"}
+                onChange={onChange}
+              />
               <label className="Size__Button" htmlFor="P">
                 P
               </label>
